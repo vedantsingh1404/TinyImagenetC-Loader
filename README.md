@@ -7,7 +7,7 @@ The corrupt TinyImagenet dataset can be found [here](https://zenodo.org/record/2
 ## File Descriptions
 
 1. dataloader.py contains all the dataloader code.
-2. Usage of this dataloader is given in usage.py.
+2. Sample usage of this dataloader is given in usage.py.
 3. Copy wnids.txt to the dataset folder.
 
 ### NOTE : This dataloader uses pytorch
