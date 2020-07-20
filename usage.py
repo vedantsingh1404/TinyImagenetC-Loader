@@ -18,7 +18,7 @@ for corruption in CORRUPTIONS:
     testloader_corrupt[corruption] = {}
     for severity in range(1, 6):
         testset = CorruptTiny(base_path, severity, corruption, transform=None)
-        testloader_corrupt[corruption][severity] = torch.utils.data.DataLoader(testset, batch_size = 1, num_workers = 12)
+        testloader_corrupt[corruption][severity] = torch.utils.data.DataLoader(testset, batch_size = 64, num_workers = 12)
 
 """
  this dictionary of test loaders can now be used for testing
